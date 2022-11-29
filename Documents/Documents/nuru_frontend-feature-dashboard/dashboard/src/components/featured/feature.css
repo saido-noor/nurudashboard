@@ -1,0 +1,110 @@
+.feature {
+    display: flex;
+    -webkit-box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 50px;
+    width: 30%;
+    /* height: 70vh; */
+    margin-left:60%;
+    margin-top: 3%;
+  }
+  .feature .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    margin-top: -20%;
+  }
+  .feature .top .title {
+    font-size: 6px;
+    font-weight: 500;
+  }
+  .feature .bottom {
+    padding: 10px;
+    display: flex;
+    margin-top: 6%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    margin-left: 20%;
+  }
+  .feature .bottom .hr{
+    color: black;
+    font-size: 20px;
+  }
+  .feature .bottom .featuredChart {
+    width: 200px;
+    height: 200px;
+    margin-top: 35%;
+    margin-right: 50%;
+  }
+  .feature .bottom .strong {
+    margin-left: -105%;
+  }
+  .feature .bottom .strong strong {
+    font-size: 90px;
+    color: #3E98C7;
+
+  }
+   .title1 {
+    font-weight: 500;
+    color: black;
+    margin-right: 200%;
+    font-size: 15px;
+  }
+  .start{
+    margin-top: -23%;
+    margin-left: 155%;
+    padding: 2%;
+    border-radius: 10px;
+  }
+  hr{  
+   width: 200%;  
+   margin-left: -45%;
+   margin-top: 20%;
+   background-color: rgb(119, 119, 119);  
+   border-width: 1px;   
+  }  
+  .feature .bottom .amount1 {
+    margin-top: -20%;
+    font-weight: 300;
+    
+    color: black;
+    margin-left: -130%;
+    font-size: 20px;
+  }
+
+  .feature .bottom .desc {
+    font-weight: 300;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+  }
+  .feature .bottom .summary {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .feature .bottom .summary .item {
+    text-align: center;
+  }
+  .feature .bottom .summary .item .itemTitle {
+    font-size: 14px;
+    color: gray;
+  }
+  .feature .bottom .summary .item .itemResult {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .feature .bottom .summary .item .itemResult.positive {
+    color: green;
+  }
+  .feature .bottom .summary .item .itemResult.negative {
+    color: red;
+  }
+
+

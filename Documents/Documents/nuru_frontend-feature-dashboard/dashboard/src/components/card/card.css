@@ -1,0 +1,38 @@
+.sms-container
+{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+ .total
+{
+    margin-left: 10%;
+    background-color: #EBA0A3;
+    width: 20%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 4px 8px  rgba(241, 236, 236, 0.47);
+
+
+
+}
+.consumed
+{
+    margin-left: 10%;
+    background-color: #f2c2f2;
+    width: 20%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 4px 8px  rgba(241, 236, 236, 0.47);
+}
+.sms-content
+{
+    margin-left: 10%;
+    background-color: #00BDAE;
+    width: 20%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 4px 8px  rgba(241, 236, 236, 0.47);
+
+}

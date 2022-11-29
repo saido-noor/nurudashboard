@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.holder{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+/* .header h2{
+  margin-top: 10px;
+} */
+.container{
+  width: 100vh;
+  display:flex;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
+  height: 86vh;
+  margin-top: 52px;
+}
+.show{
+    width: 50px;
+    border: none;
+    background-color: white;
+}
+#form{
+  max-width: 320px;
+  width: 100vw;
+  margin: 4em auto;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.error{
+  color: red;
+  font-size: 15px;
+  margin-top: -10px;
+}
+#top-names{
+  margin-right:236px;
+  font-weight: 210;
+  font: bold;
+}
+#top-name{
+  margin-right:210px;
+  font-weight: 220;
+  font: bold;
+}
+#top-namess{
+  margin-right:188px;
+  font-weight: 200;
+  font: bold;
+}
+#form >  input, .btn{
+  border: 1px solid #05277C;
+  padding: .9em 1em;
+  border-radius: 15px;
+  background-color: none;
+  margin-top: -10px;
+}
+#form > input:focus{
+  outline: none;
+}
+#form > .btn{
+  background-color: #05277C;
+  color: #E9ECEF;
+  font-size: 1em;
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+  gap: 1em;
+}
+.flex-col{
+  flex-direction: column;
+}
+.register .holder{
+  margin: auto;
+  padding: 3em 0;
+}
+@media screen and (min-width: 860px)  {
+  .register .col-2 img{
+    display: initial;
+  }
+}
